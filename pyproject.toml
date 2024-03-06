@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "streamlit-initial"
+version = "0.1.0"
+description = "Project oriented nu devanalytics."
+authors = ["Jorge Luiz Plautz <jorge.plautz@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "streamlit_initial"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.31.1"
+pandas = "^2.2.1"
+numpy = "^1.26.4"
+plotly-express = "^0.4.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
